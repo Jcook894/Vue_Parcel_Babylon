@@ -1,0 +1,25 @@
+{
+    "name": "project_1",
+    "version": "1.0.0",
+    "description": "Game built with babylon js using vue js as the UI",
+    "main": "index.html",
+    "scripts": {
+        "dev": "NODE_ENV=development parcel index.html",
+        "build": "NODE_ENV=production parcel build index.html --no-minify"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "vue": "^2.5.13",
+        "vue-css-grid": "^0.1.0"
+    },
+    "devDependencies": {
+        "babel-install": "2.1.0",
+        "babel-preset-env": "^1.6.1",
+        "eslint": "^4.15.0",
+        "eslint-plugin-vue": "^4.2.0",
+        "parcel-bundler": "^1.4.1",
+        "parcel-plugin-eslint": "^1.0.0",
+        "parcel-plugin-vue": "^1.5.0"
+    }
+}
